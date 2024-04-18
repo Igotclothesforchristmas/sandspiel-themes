@@ -2,7 +2,7 @@ canvas = document.getElementById("sand-canvas");
 buttons = document.getElementById("ui");
 background = document.getElementById("background");
 buttons.style.backgroundColor = "#f76ac4"
-background.style.backgroundColor = "#333333"
+background.style.backgroundColor = "#000000"
 canvas.style.backdropFilter = "invert(1)"
 for (const child of buttons.children) {
 if (child.tagName = "button"){
