@@ -1,0 +1,13 @@
+canvas = document.getElementById("sand-canvas");
+buttons = document.getElementById("ui");
+background = document.getElementById("background");
+buttons.style.backgroundColor = "#faffcc"
+background.style.backgroundColor = "#faffcc"
+canvas.style.backdropFilter = "invert(1)"
+for (const child of buttons.children) {
+if (child.tagName = "button"){
+child.style.color = "summersky"
+child.style.backgroundColor = "#26c0d1"
+
+  }
+}
